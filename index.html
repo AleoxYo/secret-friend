@@ -32,7 +32,9 @@
             class="input-name"
             placeholder="Escribe un nombre"
           />
-          <button class="button-add" onclick="addFriend()">Añadir</button>
+          <button class="button-add" onclick="addFriend(addedFriends)">
+            Añadir
+          </button>
         </div>
 
         <ul
@@ -46,7 +48,7 @@
         <div class="button-container">
           <button
             class="button-draw"
-            onclick="sortearAmigo()"
+            onclick="sortFriend(addedFriends)"
             aria-label="Sortear amigo secreto"
           >
             <img
